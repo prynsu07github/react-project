@@ -1,0 +1,84 @@
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: "black";
+  font-family: "arial";
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 20px;
+  align-items: center;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.card {
+  width: 550px;
+  height: auto;
+  padding: 10px 10px;
+  border: 1px solid grey;
+  border-radius: 20px;
+  box-shadow: 1px 1px 2px black;
+}
+
+.profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.profile-details {
+  padding: 20px;
+}
+
+.description {
+  margin-top: 20px;
+}
+
+p {
+  margin: 5px 0;
+  color: black;
+  font-size: 1.01rem;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+span {
+  color: grey;
+}
+
+span h2 {
+  color: black;
+  font-size: 1.8rem;
+  border-radius: 5px;
+}
+
+.buttons {
+  text-align: right;
+}
+
+.buttons button {
+  height: 30px;
+  width: 50px;
+  border: none;
+  outline: none;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px black;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+.buttons button:nth-child(1) {
+  margin-right: 10px;
+  background-color: red;
+}
+
+.buttons button:active {
+  transform: translate(2px);
+  box-shadow: none;
+}
